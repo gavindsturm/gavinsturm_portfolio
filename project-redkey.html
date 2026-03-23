@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REDKEY — Gavin Sturm</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="project-page">
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+  <nav class="back-nav">
+    <a class="back-link" href="index.html">← Back to Portfolio</a>
+    <span class="back-link" style="opacity:0.4">04 / REDKEY</span>
+  </nav>
+
+  <div class="project-hero">
+    <p class="project-kicker">04 — Security Product · 2025–Present</p>
+    <h1 class="project-title">REDKEY <em>File Retrieval</em></h1>
+    <div class="project-meta-row">
+      <div class="project-meta-item">
+        <span class="project-meta-label">Role</span>
+        <span class="project-meta-val">Security Engineer · Architect</span>
+      </div>
+      <div class="project-meta-item">
+        <span class="project-meta-label">Type</span>
+        <span class="project-meta-val">Security Product</span>
+      </div>
+      <div class="project-meta-item">
+        <span class="project-meta-label">Stack</span>
+        <span class="project-meta-val">Python · AES-256 · Rotating APIs</span>
+      </div>
+      <div class="project-meta-item">
+        <span class="project-meta-label">Focus</span>
+        <span class="project-meta-val">Encrypted Transit · Zero Plaintext</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-visual">
+    <div class="project-mockup" style="background:#0e0e0c">
+      <img src="images/project-redkey.svg" alt="REDKEY" style="width:100%;height:100%;object-fit:cover;border-radius:6px"/>
+    </div>
+  </div>
+
+  <div class="project-overview">
+    <div class="overview-grid">
+      <h2 class="overview-heading">Project Overview</h2>
+      <p class="overview-text">REDKEY is a <em>secure file retrieval system</em> built for environments where data sensitivity is paramount. Users can request and retrieve files over encrypted transit, with every request authenticated via <em>rotating API keys</em> that expire after use — eliminating the risk of stolen static credentials.</p>
+      <p class="overview-text">Files are stored in <em>zero plaintext format</em> — encrypted at rest with AES-256. Decryption only happens locally on the client after authenticated retrieval. Every access event is logged to a tamper-evident audit trail with full RBAC enforcement throughout.</p>
+    </div>
+  </div>
+
+  <div class="project-highlights">
+    <div class="section-label">Key Highlights</div>
+    <div class="highlights-grid">
+      <div class="highlight-card">
+        <div class="highlight-num">AES</div>
+        <div class="highlight-label">256-bit Encryption</div>
+        <div class="highlight-desc">End-to-end AES-256 encryption in transit and at rest. Files never exist in plaintext on the server.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-num">0</div>
+        <div class="highlight-label">Static Credentials</div>
+        <div class="highlight-desc">Rotating API keys expire after every use, eliminating the risk of stolen or leaked long-lived credentials.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-num">Full</div>
+        <div class="highlight-label">Audit Trail</div>
+        <div class="highlight-desc">Every file access, key rotation, and authentication event is logged to a tamper-evident audit trail.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-tech">
+    <div class="section-label">Technologies Used</div>
+    <div class="tech-list">
+      <span class="tech-pill">Python</span>
+      <span class="tech-pill">AES-256</span>
+      <span class="tech-pill">Rotating API Keys</span>
+      <span class="tech-pill">RBAC</span>
+      <span class="tech-pill">Encrypted Transit</span>
+      <span class="tech-pill">Zero Plaintext Storage</span>
+      <span class="tech-pill">Audit Logging</span>
+      <span class="tech-pill">REST API</span>
+    </div>
+  </div>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

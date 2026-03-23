@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gavin Sturm — CS Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-text"><span id="loader-pct">0%</span></div>
+  </div>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-left">GS<span class="nav-reg">®</span></div>
+    <ul class="nav-links">
+      <li><a href="#hero"><span class="nav-num">01/</span>Hello</a></li>
+      <li><a href="#about"><span class="nav-num">02/</span>About</a></li>
+      <li><a href="#work"><span class="nav-num">03/</span>Work</a></li>
+      <li><a href="#contact"><span class="nav-num">04/</span>Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Gavin Sturm<sup>®</sup></h1>
+      <p class="hero-sub">Professional Computer Science — Senior · Montana State University</p>
+      <p class="hero-tagline">Building things that <em>matter.</em></p>
+    </div>
+    <div class="hero-footer">
+      <span>©2026</span>
+      <span class="scroll-hint">Scroll ↓</span>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-label">02 / About</div>
+    <div class="about-grid">
+      <div class="about-main">
+        <h2 class="about-heading">
+          Gavin Sturm is a <em>Cybersecurity & Software Engineer</em> working at the intersection of AI, security, and systems — with hands-on experience in healthcare and DoD environments.
+        </h2>
+        <div class="about-star">*</div>
+        <p class="about-body">Over the past 2 years I've built secure infrastructure for government contractors, automated AI-driven systems for enterprise clients, and architected HIPAA-compliant data pipelines handling tens of thousands of medical records.</p>
+        <p class="about-body">My work spans <em>cybersecurity engineering, AI automation, and software development</em> — always with a focus on security, reliability, and real-world impact.</p>
+        <div class="about-skills">
+          <div class="skill-row">
+            <span class="skill-label">Languages</span>
+            <span class="skill-val">C#  ·  Python  ·  Java  ·  JavaScript  ·  SQL  ·  HTML/CSS</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Technologies</span>
+            <span class="skill-val">.NET  ·  REST APIs  ·  Git  ·  Linux  ·  Windows Server  ·  Active Directory</span>
+          </div>
+          <div class="skill-row">
+            <span class="skill-label">Security</span>
+            <span class="skill-val">NIST  ·  HIPAA  ·  RBAC  ·  SIEM  ·  IDS/IPS  ·  Encryption</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-aside">
+        <div class="about-photo-box" style="padding:0;overflow:hidden;background:var(--bg2)">
+          <img src="images/gavin.png" alt="Gavin Sturm" style="width:140%;height:140%;object-fit:cover;object-position:60% 20%;display:block;mix-blend-mode:multiply;margin-left:-20%;margin-top:-5%"/>
+        </div>
+        <div class="about-stat-box">
+          <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Years Experience</span></div>
+          <div class="stat"><span class="stat-num">30K+</span><span class="stat-label">Records Secured</span></div>
+          <div class="stat"><span class="stat-num">DoD</span><span class="stat-label">Affiliated Work</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="section-label">03 / Work</div>
+    <div class="work-list">
+
+      <a class="work-item" href="project-ai-email.html">
+        <div class="work-left">
+          <span class="work-num">01</span>
+          <div>
+            <div class="work-tags-row">
+              <span class="tag">Python</span><span class="tag">AI</span><span class="tag">Automation</span>
+            </div>
+            <h3 class="work-title">AI Email <em>Automation</em></h3>
+          </div>
+        </div>
+        <div class="work-right">
+          <span class="work-type">Logistics Enterprise</span>
+          <span class="work-arrow">↗</span>
+        </div>
+        <div class="work-hover-img">
+          <div class="work-img-placeholder">
+            <img src="images/project-ai-email.svg" alt="AI Email Automation" style="width:100%;height:100%;object-fit:cover"/>
+          </div>
+        </div>
+      </a>
+
+      <a class="work-item" href="project-dod.html">
+        <div class="work-left">
+          <span class="work-num">02</span>
+          <div>
+            <div class="work-tags-row">
+              <span class="tag">Windows Server</span><span class="tag">DoD</span><span class="tag">Active Directory</span>
+            </div>
+            <h3 class="work-title">DoD Secure <em>Infrastructure</em></h3>
+          </div>
+        </div>
+        <div class="work-right">
+          <span class="work-type">LDRedmer</span>
+          <span class="work-arrow">↗</span>
+        </div>
+        <div class="work-hover-img">
+          <div class="work-img-placeholder">
+            <img src="images/project-dod.svg" alt="DoD Infrastructure" style="width:100%;height:100%;object-fit:cover"/>
+          </div>
+        </div>
+      </a>
+
+      <a class="work-item" href="project-ldredmer-ai.html">
+        <div class="work-left">
+          <span class="work-num">03</span>
+          <div>
+            <div class="work-tags-row">
+              <span class="tag">Local AI</span><span class="tag">Python</span><span class="tag">Vector Search</span>
+            </div>
+            <h3 class="work-title">LDRedmer <em>Local AI</em></h3>
+          </div>
+        </div>
+        <div class="work-right">
+          <span class="work-type">LDRedmer</span>
+          <span class="work-arrow">↗</span>
+        </div>
+        <div class="work-hover-img">
+          <div class="work-img-placeholder">
+            <img src="images/project-ldredmer-ai.svg" alt="LDRedmer Local AI" style="width:100%;height:100%;object-fit:cover"/>
+          </div>
+        </div>
+      </a>
+
+      <a class="work-item" href="project-redkey.html">
+        <div class="work-left">
+          <span class="work-num">04</span>
+          <div>
+            <div class="work-tags-row">
+              <span class="tag">Encryption</span><span class="tag">Rotating APIs</span><span class="tag">Python</span>
+            </div>
+            <h3 class="work-title">REDKEY <em>File Retrieval</em></h3>
+          </div>
+        </div>
+        <div class="work-right">
+          <span class="work-type">Security Product</span>
+          <span class="work-arrow">↗</span>
+        </div>
+        <div class="work-hover-img">
+          <div class="work-img-placeholder">
+            <img src="images/project-redkey.svg" alt="REDKEY" style="width:100%;height:100%;object-fit:cover"/>
+          </div>
+        </div>
+      </a>
+
+      <a class="work-item" href="project-capital.html">
+        <div class="work-left">
+          <span class="work-num">05</span>
+          <div>
+            <div class="work-tags-row">
+              <span class="tag">Retool</span><span class="tag">Node.js</span><span class="tag">SQL</span>
+            </div>
+            <h3 class="work-title">Capital Logistics <em>Dashboard</em></h3>
+          </div>
+        </div>
+        <div class="work-right">
+          <span class="work-type">Capital Logistics</span>
+          <span class="work-arrow">↗</span>
+        </div>
+        <div class="work-hover-img">
+          <div class="work-img-placeholder">
+            <img src="images/project-capital.svg" alt="Capital Logistics" style="width:100%;height:100%;object-fit:cover"/>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-label">04 / Contact</div>
+    <div class="contact-body">
+      <h2 class="contact-heading">Want to reach <em>out?</em></h2>
+      <a class="contact-email" href="mailto:gavindarrellsturm@gmail.com">↗ gavindarrellsturm@gmail.com</a>
+      <ul class="contact-links">
+        <li><a href="https://github.com/gavindsturm" target="_blank">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/gavinsturm" target="_blank">LinkedIn</a></li>
+        <li><a href="resume.html">Resume ↗</a></li>
+      </ul>
+    </div>
+    <div class="contact-footer">
+      <span>©2026 Gavin Sturm</span>
+      <span>Montana State University · CS Senior</span>
+    </div>
+  </section>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>

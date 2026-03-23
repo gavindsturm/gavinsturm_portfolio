@@ -1,0 +1,34 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+<rect width="680" height="380" fill="#1a1a18"/>
+<rect x="40" y="40" width="600" height="300" rx="4" fill="#222220" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="40" y="40" width="600" height="44" rx="4" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" letter-spacing="2" fill="#7a776e" x="320" y="58" text-anchor="middle">LDREDMER · LOCAL AI FILE SEARCH</text>
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="320" y="74" text-anchor="middle">air-gapped · offline · vector embeddings · no cloud</text>
+<rect x="68" y="104" width="544" height="40" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="10" fill="#5a5a58" x="88" y="129">Search files and documents...</text>
+<rect x="560" y="110" width="44" height="28" rx="2" fill="#d4cfc4" opacity="0.12"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="582" y="128" text-anchor="middle">AI ↵</text>
+<text font-family="monospace" font-size="8" letter-spacing="1" fill="#5a5a58" x="68" y="166">SEMANTIC RESULTS · ranked by relevance</text>
+<rect x="68" y="174" width="270" height="52" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="82" y="194">contract_Q3_2025.pdf</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="82" y="208">/docs/contracts · 2.4MB</text>
+<rect x="82" y="214" width="80" height="4" rx="2" fill="#d4cfc4" opacity="0.25"/>
+<text font-family="monospace" font-size="7" fill="#7a776e" x="168" y="218">98% match</text>
+<rect x="350" y="174" width="270" height="52" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="364" y="194">server_access_log_mar.txt</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="364" y="208">/logs/access · 890KB</text>
+<rect x="364" y="214" width="68" height="4" rx="2" fill="#d4cfc4" opacity="0.2"/>
+<text font-family="monospace" font-size="7" fill="#7a776e" x="438" y="218">94% match</text>
+<rect x="68" y="236" width="270" height="52" rx="3" fill="#252523" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#aaa8a0" x="82" y="256">dod_compliance_report.docx</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="82" y="270">/secure/reports · restricted</text>
+<rect x="82" y="276" width="58" height="4" rx="2" fill="#d4cfc4" opacity="0.15"/>
+<text font-family="monospace" font-size="7" fill="#7a776e" x="146" y="280">91% match</text>
+<rect x="350" y="236" width="270" height="52" rx="3" fill="#252523" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#aaa8a0" x="364" y="256">gpo_baseline_config.xml</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="364" y="270">/config/gpo · active</text>
+<rect x="364" y="276" width="50" height="4" rx="2" fill="#d4cfc4" opacity="0.12"/>
+<text font-family="monospace" font-size="7" fill="#7a776e" x="420" y="280">88% match</text>
+<rect x="68" y="306" width="544" height="18" rx="2" fill="#252523"/>
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="320" y="319" text-anchor="middle">Local LLM · Python · Vector Search · Windows Server · AD permissions enforced</text>
+</svg>

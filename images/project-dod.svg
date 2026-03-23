@@ -1,0 +1,27 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+<rect width="680" height="380" fill="#1a1a18"/>
+<rect x="40" y="40" width="600" height="300" rx="4" fill="#222220" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="40" y="40" width="600" height="44" rx="4" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" letter-spacing="2" fill="#7a776e" x="320" y="58" text-anchor="middle">DOD SECURE INFRASTRUCTURE · LDREDMER</text>
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="320" y="74" text-anchor="middle">DISA STIGs · NIST · CMMC · Windows Server</text>
+<rect x="68" y="104" width="544" height="210" rx="3" fill="none" stroke="#3a3a38" stroke-width="0.5" stroke-dasharray="5 3"/>
+<text font-family="monospace" font-size="8" letter-spacing="1" fill="#5a5a58" x="80" y="120">ACTIVE DIRECTORY DOMAIN · ldredmer.local</text>
+<rect x="88" y="130" width="140" height="70" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="158" y="156" text-anchor="middle">Domain</text>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="158" y="170" text-anchor="middle">Controller</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="158" y="186" text-anchor="middle">AD DS · DNS · LDAP</text>
+<rect x="270" y="130" width="140" height="70" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="340" y="156" text-anchor="middle">File Server</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="340" y="172" text-anchor="middle">NTFS · ACL · RBAC</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="340" y="186" text-anchor="middle">least-privilege</text>
+<rect x="452" y="130" width="140" height="70" rx="3" fill="#d4cfc4" opacity="0.08" stroke="#5a5a58" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="522" y="156" text-anchor="middle">GPO Engine</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="522" y="172" text-anchor="middle">Security baselines</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="522" y="186" text-anchor="middle">DISA STIG enforced</text>
+<line x1="228" y1="165" x2="270" y2="165" stroke="#3a3a38" stroke-width="0.5" stroke-dasharray="3 2"/>
+<line x1="410" y1="165" x2="452" y2="165" stroke="#3a3a38" stroke-width="0.5" stroke-dasharray="3 2"/>
+<rect x="88" y="230" width="504" height="58" rx="3" fill="#252523" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="8" letter-spacing="1" fill="#5a5a58" x="102" y="248">SECURITY HARDENING CHECKLIST</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="102" y="266">✓ Unnecessary services disabled   ✓ GPO security baselines applied   ✓ RBAC + ACL configured</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="102" y="280">✓ DISA STIGs implemented          ✓ Audit logging enabled            ✓ Least-privilege enforced</text>
+</svg>

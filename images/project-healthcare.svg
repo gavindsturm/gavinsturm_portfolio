@@ -1,0 +1,51 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+<rect width="680" height="380" fill="#1a1a18"/>
+<rect x="40" y="40" width="600" height="300" rx="4" fill="#222220" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="40" y="40" width="600" height="44" rx="4" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" letter-spacing="2" fill="#7a776e" x="320" y="58" text-anchor="middle">HEALTHCARE DATA TRANSFER · NEURODIAGNOSTIC PROVIDER</text>
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="320" y="74" text-anchor="middle">HIPAA · AES-256 · Python · Automation Pipeline</text>
+
+<!-- Pipeline flow boxes -->
+<rect x="68" y="104" width="544" height="30" rx="3" fill="none" stroke="#3a3a38" stroke-width="0.5" stroke-dasharray="5 3"/>
+<text font-family="monospace" font-size="8" letter-spacing="1" fill="#5a5a58" x="80" y="124">SECURE TRANSFER PIPELINE · 30,000+ MEDICAL RECORDS</text>
+
+<!-- Stage 1: Ingestion -->
+<rect x="76" y="148" width="120" height="72" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="136" y="172" text-anchor="middle">Ingestion</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="136" y="188" text-anchor="middle">Auto validation</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="136" y="202" text-anchor="middle">Error handling</text>
+
+<!-- Arrow -->
+<line x1="196" y1="184" x2="218" y2="184" stroke="#3a3a38" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="207" y="178" text-anchor="middle">→</text>
+
+<!-- Stage 2: Encryption -->
+<rect x="218" y="148" width="130" height="72" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="283" y="172" text-anchor="middle">Encryption</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="283" y="188" text-anchor="middle">AES-256 at rest</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="283" y="202" text-anchor="middle">TLS in transit</text>
+
+<!-- Arrow -->
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="357" y="178" text-anchor="middle">→</text>
+
+<!-- Stage 3: Access Control -->
+<rect x="366" y="148" width="130" height="72" rx="3" fill="#d4cfc4" opacity="0.07" stroke="#5a5a58" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="431" y="172" text-anchor="middle">Access Ctrl</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="431" y="188" text-anchor="middle">RBAC enforced</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="431" y="202" text-anchor="middle">Audit logging</text>
+
+<!-- Arrow -->
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="505" y="178" text-anchor="middle">→</text>
+
+<!-- Stage 4: Delivery -->
+<rect x="512" y="148" width="112" height="72" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" fill="#d4cfc4" x="568" y="172" text-anchor="middle">Delivery</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="568" y="188" text-anchor="middle">Secure transfer</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="568" y="202" text-anchor="middle">HIPAA logged</text>
+
+<!-- Bottom compliance bar -->
+<rect x="76" y="242" width="548" height="68" rx="3" fill="#252523" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="8" letter-spacing="1" fill="#5a5a58" x="90" y="260">HIPAA COMPLIANCE CONTROLS</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="90" y="278">✓ PHI encrypted at rest &amp; in transit    ✓ Role-based access controls applied    ✓ Audit trail maintained</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="90" y="294">✓ Automated ingestion — no manual handling    ✓ Technical controls mapped to HIPAA safeguards</text>
+</svg>

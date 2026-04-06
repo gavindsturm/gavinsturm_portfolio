@@ -1,0 +1,49 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+<rect width="680" height="380" fill="#1a1a18"/>
+<rect x="40" y="40" width="600" height="300" rx="4" fill="#222220" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="40" y="40" width="600" height="44" rx="4" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="9" letter-spacing="2" fill="#7a776e" x="320" y="58" text-anchor="middle">CAPITAL LOGISTICS · RETOOL OPERATIONS DASHBOARD</text>
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="320" y="74" text-anchor="middle">Node.js · PostgreSQL · REST APIs · live data</text>
+<rect x="68" y="104" width="118" height="64" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="7" letter-spacing="1" fill="#5a5a58" x="127" y="120" text-anchor="middle">SHIPMENTS</text>
+<text font-family="monospace" font-size="22" fill="#d4cfc4" x="127" y="150" text-anchor="middle">3,241</text>
+<text font-family="monospace" font-size="7" fill="#4a4a48" x="127" y="162" text-anchor="middle">↑ 12% this week</text>
+<rect x="198" y="104" width="118" height="64" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="7" letter-spacing="1" fill="#5a5a58" x="257" y="120" text-anchor="middle">ON TIME</text>
+<text font-family="monospace" font-size="22" fill="#d4cfc4" x="257" y="150" text-anchor="middle">94.2%</text>
+<text font-family="monospace" font-size="7" fill="#4a4a48" x="257" y="162" text-anchor="middle">SLA target: 90%</text>
+<rect x="328" y="104" width="118" height="64" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="7" letter-spacing="1" fill="#5a5a58" x="387" y="120" text-anchor="middle">DRIVERS</text>
+<text font-family="monospace" font-size="22" fill="#d4cfc4" x="387" y="150" text-anchor="middle">128</text>
+<text font-family="monospace" font-size="7" fill="#4a4a48" x="387" y="162" text-anchor="middle">114 active now</text>
+<rect x="458" y="104" width="118" height="64" rx="3" fill="#d4cfc4" opacity="0.07" stroke="#4a4a48" stroke-width="0.5"/>
+<text font-family="monospace" font-size="7" letter-spacing="1" fill="#7a776e" x="517" y="120" text-anchor="middle">API STATUS</text>
+<text font-family="monospace" font-size="14" fill="#d4cfc4" x="517" y="148" text-anchor="middle">● LIVE</text>
+<text font-family="monospace" font-size="7" fill="#4a4a48" x="517" y="162" text-anchor="middle">4/4 connected</text>
+<rect x="68" y="184" width="330" height="136" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="7" letter-spacing="1" fill="#5a5a58" x="82" y="200">ROUTE PERFORMANCE · SQL · last 7 days</text>
+<line x1="82" y1="298" x2="384" y2="298" stroke="#3a3a38" stroke-width="0.5"/>
+<line x1="82" y1="298" x2="82" y2="212" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="96" y="250" width="26" height="48" rx="1" fill="#d4cfc4" opacity="0.18"/>
+<rect x="134" y="232" width="26" height="66" rx="1" fill="#d4cfc4" opacity="0.28"/>
+<rect x="172" y="258" width="26" height="40" rx="1" fill="#d4cfc4" opacity="0.16"/>
+<rect x="210" y="220" width="26" height="78" rx="1" fill="#d4cfc4" opacity="0.38"/>
+<rect x="248" y="238" width="26" height="60" rx="1" fill="#d4cfc4" opacity="0.22"/>
+<rect x="286" y="246" width="26" height="52" rx="1" fill="#d4cfc4" opacity="0.2"/>
+<rect x="324" y="226" width="26" height="72" rx="1" fill="#d4cfc4" opacity="0.32"/>
+<text font-family="monospace" font-size="7" fill="#3a3a38" x="109" y="308" text-anchor="middle">Mon</text>
+<text font-family="monospace" font-size="7" fill="#3a3a38" x="147" y="308" text-anchor="middle">Tue</text>
+<text font-family="monospace" font-size="7" fill="#3a3a38" x="185" y="308" text-anchor="middle">Wed</text>
+<text font-family="monospace" font-size="7" fill="#3a3a38" x="223" y="308" text-anchor="middle">Thu</text>
+<text font-family="monospace" font-size="7" fill="#3a3a38" x="261" y="308" text-anchor="middle">Fri</text>
+<text font-family="monospace" font-size="7" fill="#3a3a38" x="299" y="308" text-anchor="middle">Sat</text>
+<text font-family="monospace" font-size="7" fill="#3a3a38" x="337" y="308" text-anchor="middle">Sun</text>
+<rect x="410" y="184" width="206" height="136" rx="3" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<text font-family="monospace" font-size="7" letter-spacing="1" fill="#5a5a58" x="424" y="200">LIVE CONNECTIONS</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="424" y="220">● PostgreSQL · primary db</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="424" y="238">● REST API · dispatch feed</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="424" y="256">● Node.js · middleware</text>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="424" y="274">● Retool · frontend layer</text>
+<rect x="424" y="284" width="174" height="22" rx="2" fill="#252523"/>
+<text font-family="monospace" font-size="7" fill="#4a4a48" x="511" y="299" text-anchor="middle">last sync: 2s ago</text>
+</svg>

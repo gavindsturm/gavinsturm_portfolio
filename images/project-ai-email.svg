@@ -1,0 +1,37 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+<rect width="680" height="380" fill="#1a1a18"/>
+<rect x="40" y="40" width="600" height="300" rx="4" fill="#222220" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="40" y="40" width="600" height="44" rx="4" fill="#2a2a28" stroke="#3a3a38" stroke-width="0.5"/>
+<circle cx="68" cy="62" r="7" fill="#3a3a38"/>
+<circle cx="90" cy="62" r="7" fill="#3a3a38"/>
+<circle cx="112" cy="62" r="7" fill="#3a3a38"/>
+<text font-family="monospace" font-size="10" fill="#7a776e" x="320" y="66" text-anchor="middle">ai-email-automation · production · 3,241 sent today</text>
+<rect x="68" y="100" width="90" height="20" rx="2" fill="#d4cfc4" opacity="0.12"/>
+<text font-family="monospace" font-size="10" fill="#d4cfc4" x="113" y="114" text-anchor="middle">Inbox</text>
+<text font-family="monospace" font-size="10" fill="#7a776e" x="220" y="114" text-anchor="middle">Sent</text>
+<text font-family="monospace" font-size="10" fill="#7a776e" x="310" y="114" text-anchor="middle">Queue</text>
+<text font-family="monospace" font-size="10" fill="#7a776e" x="400" y="114" text-anchor="middle">Failed</text>
+<rect x="68" y="126" width="544" height="1" fill="#3a3a38"/>
+<rect x="68" y="134" width="544" height="38" rx="2" fill="#2e2e2c" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="82" y="144" width="18" height="18" rx="2" fill="#4a4a48"/>
+<text font-family="monospace" font-size="10" fill="#d4cfc4" x="112" y="158">Logistics dispatch confirmation — batch_3241 processed</text>
+<text font-family="monospace" font-size="8" fill="#d4cfc4" x="560" y="152">09:42</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="560" y="164">98ms</text>
+<rect x="68" y="178" width="544" height="38" rx="2" fill="#252523" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="82" y="188" width="18" height="18" rx="2" fill="#3a3a38"/>
+<text font-family="monospace" font-size="10" fill="#aaa8a0" x="112" y="202">Route update notifications — 847 drivers notified</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="560" y="196">09:38</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="560" y="208">automated</text>
+<rect x="68" y="222" width="544" height="38" rx="2" fill="#252523" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="82" y="232" width="18" height="18" rx="2" fill="#3a3a38"/>
+<text font-family="monospace" font-size="10" fill="#aaa8a0" x="112" y="246">Driver schedule sync — SQL batch complete · 0 errors</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="560" y="240">09:31</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="560" y="252">batch</text>
+<rect x="68" y="266" width="544" height="38" rx="2" fill="#252523" stroke="#3a3a38" stroke-width="0.5"/>
+<rect x="82" y="276" width="18" height="18" rx="2" fill="#3a3a38"/>
+<text font-family="monospace" font-size="10" fill="#aaa8a0" x="112" y="290">Freight status alerts — 0 manual actions required</text>
+<text font-family="monospace" font-size="8" fill="#5a5a58" x="560" y="284">09:24</text>
+<rect x="68" y="318" width="88" height="16" rx="2" fill="#d4cfc4" opacity="0.08"/>
+<text font-family="monospace" font-size="8" fill="#7a776e" x="112" y="330" text-anchor="middle">AI · Python · SQL</text>
+<text font-family="monospace" font-size="8" fill="#4a4a48" x="600" y="330">● live</text>
+</svg>

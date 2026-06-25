@@ -664,6 +664,13 @@ body::before {
 .resume-entry-title { font-family: var(--serif); font-size: 1.2rem; font-weight: 400; font-style: italic; }
 .resume-entry-date { font-size: 0.68rem; color: var(--muted); letter-spacing: 0.08em; }
 .resume-entry-org { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 0.75rem; }
+.resume-entry-stack {
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+  opacity: 0.85;
+}
 .resume-bullets { list-style: none; padding: 0; }
 .resume-bullets li {
   font-size: 0.82rem;

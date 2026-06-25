@@ -710,3 +710,113 @@ body::before {
   .work-title { font-size: 2rem; }
   .work-hover-img { display: none; }
 }
+
+/* =============================================
+   FDE OPTIMIZATION ADDITIONS
+   Append to end of assets/style.css
+============================================= */
+
+/* SKIP LINK — hidden until keyboard focus (a11y) */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 10000;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.75rem 1.25rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.skip-link:focus { left: 0; }
+
+/* Visible keyboard focus everywhere (a11y floor) */
+a:focus-visible,
+.work-item:focus-visible,
+.tech-pill:focus-visible {
+  outline: 2px solid var(--fg);
+  outline-offset: 3px;
+}
+
+/* Restore a real cursor on the resume page — readers need to
+   select text, click links, and print without hunting for a dot */
+.resume-page,
+.resume-page * { cursor: auto; }
+.resume-page a { cursor: pointer; }
+.resume-page .cursor,
+.resume-page .cursor-ring { display: none; }
+
+/* Respect reduced-motion: drop the custom cursor and animations */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  body { cursor: auto; }
+  .cursor, .cursor-ring { display: none; }
+  .hero-title, .hero-sub, .hero-tagline, .hero-footer { opacity: 1; transform: none; }
+  .reveal { opacity: 1; transform: none; }
+}
+
+/* =============================================
+   PRINT — clean PDF export of the resume
+============================================= */
+@media print {
+  /* Kill the grain overlay, custom cursor, decorative chrome */
+  body::before { display: none !important; }
+  .cursor, .cursor-ring, .loader { display: none !important; }
+  .back-nav, .scroll-hint { display: none !important; }
+
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+    cursor: auto !important;
+    font-size: 9.5pt;
+    line-height: 1.3;
+  }
+
+  /* Remove the fixed-nav top offset so content starts at the top */
+  .resume-page { padding-top: 0 !important; }
+
+  .resume-header {
+    padding: 0 0 0.6rem !important;
+    border-bottom: 1px solid #000 !important;
+  }
+  .resume-name { font-size: 1.9rem !important; color: #000 !important; line-height: 0.95 !important; }
+  .resume-contact-info { color: #333 !important; line-height: 1.5 !important; }
+  .resume-contact-info a { color: #000 !important; border: none !important; }
+
+  .resume-body { padding: 0 !important; }
+
+  /* Tight section grid for paper. Avoid breaking *entries* mid-block,
+     but allow sections themselves to flow across pages so the resume
+     stays ~1-2 pages instead of one section per page. */
+  .resume-section {
+    padding: 0.7rem 0 !important;
+    gap: 1.2rem !important;
+    grid-template-columns: 150px 1fr !important;
+    border-color: #ccc !important;
+    break-inside: auto;
+  }
+  .resume-section-label { color: #000 !important; }
+  .resume-entry { break-inside: avoid; margin-bottom: 0.7rem !important; }
+  .resume-entry-title { color: #000 !important; }
+  .resume-entry-org, .resume-entry-date { color: #333 !important; }
+  .resume-bullets li { color: #222 !important; }
+  .resume-bullets li::before { color: #888 !important; }
+  .resume-skill-key { color: #000 !important; }
+  .resume-skill-row span:last-child,
+  .resume-cert { color: #222 !important; }
+
+  /* Make links print their URL so a paper copy is still actionable */
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; color: #555; }
+  /* ...but not for the contact block, where it'd be noise */
+  .resume-contact-info a::after { content: ""; }
+
+  @page { margin: 0.6in; }
+}

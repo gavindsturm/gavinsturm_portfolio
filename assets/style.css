@@ -827,3 +827,55 @@ a:focus-visible,
 
   @page { margin: 0.6in; }
 }
+
+/* =============================================
+   MOBILE FIXES — cursor + fixed-header overlap
+============================================= */
+
+/* Touch devices: the custom cursor never gets a mousemove event,
+   so it stays frozen at 0,0. Hide it and restore the real cursor. */
+@media (hover: none), (pointer: coarse) {
+  body { cursor: auto; }
+  .cursor, .cursor-ring { display: none !important; }
+}
+
+@media (max-width: 600px) {
+  /* Don't pin the nav over content on small screens — let it scroll away.
+     (The nav links are already hidden under 600px, so the fixed bar was
+     just the GS logo sitting on top of the hero/sections.) */
+  .nav {
+    position: absolute;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    border-bottom: none !important;
+    padding: 1rem 1.5rem;
+  }
+  .nav.scrolled {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    border-color: transparent !important;
+  }
+
+  /* Give the hero a little top room now that the logo sits in-flow */
+  .hero { padding-top: 5rem; }
+
+  /* The back-nav on inner pages (resume/projects) should stay usable but
+     not blur over content — keep it fixed but solid, and offset content. */
+  .back-nav { padding: 1rem 1.5rem; }
+
+  /* Belt-and-suspenders cursor kill on narrow screens */
+  .cursor, .cursor-ring { display: none !important; }
+}
+
+/* ABOUT PHOTO ON MOBILE
+   The aside becomes a flex row on small screens, which crushes the photo
+   box to ~90px and the inline 140%/-20% crop pushes the image out of view.
+   Stack it instead and cap the photo width so it actually shows. */
+@media (max-width: 900px) {
+  .about-aside { flex-direction: column; }
+  .about-photo-box {
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

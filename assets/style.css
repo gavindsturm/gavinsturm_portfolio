@@ -879,3 +879,13 @@ a:focus-visible,
     margin-right: auto;
   }
 }
+
+/* ABOUT: photo+stats block moved to top of source.
+   Desktop — keep the two-column look (text left, aside right) by
+   explicitly placing each into its column; aside pinned to the top-right. */
+@media (min-width: 901px) {
+  .about-grid { grid-template-columns: 1fr 280px; }
+  .about-grid .about-aside { grid-column: 2; grid-row: 1; align-self: start; }
+  .about-grid .about-main  { grid-column: 1; grid-row: 1; }
+}
+/* Mobile — aside is first in source, so it naturally sits above the text. */
